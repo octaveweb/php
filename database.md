@@ -1,4 +1,4 @@
-# Data Base Connection 
+
 *Database is a fill that stores data in a table format.*
 
 > Current Contax of xmapp is http://localhost/phpmyadmin/

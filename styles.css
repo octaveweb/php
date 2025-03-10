@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 /* 🌙 Global Styles */
 body {
     background-color: #0d1117;
     color: #c9d1d9;
-    font-family: 'Inter', Arial, sans-serif;
+    font-family: "Ubuntu", sans-serif;
     line-height: 1.6;
     padding: 20px;
     max-width: 900px;
@@ -32,23 +34,84 @@ a:hover {
 }
 
 /* 🔲 Code Blocks */
+/* 🌙 Dark Mode Background */
 pre {
     background: #161b22;
-    padding: 15px;
+    padding: 10px;
+    padding: 10px;
     border-radius: 8px;
     overflow-x: auto;
     font-size: 14px;
     line-height: 1.4;
     border: 1px solid #30363d;
+    box-shadow: 0px 0px 26px -2px #2c00ff30;
+}
+pre:hover {
+    box-shadow: 0px 0px 26px 2px #2c00ff30;
+  transition: all .7s cubic-bezier(.7, 0, .3, 1);
 }
 code {
     background: #161b22;
     color: #e6edf3;
     padding: 4px 6px;
     border-radius: 4px;
-    font-family: 'Courier New', monospace;
-    font-size: 14px;
+    font-size: 16px;
 }
+
+
+/* 🎨 Syntax Highlighting */
+.hljs {
+    background-color: #0d1117 !important;
+    color: #c9d1d9 !important;
+    font-family: 'Fira Code', monospace !important;
+}
+
+/* 🔹 Keywords (const, let, function) */
+.hljs-keyword {
+    color: #ff7b72 !important;
+}
+
+/* 🟢 Strings */
+.hljs-string {
+    color: #a5d6ff !important;
+}
+
+/* 🔸 Numbers */
+.hljs-number {
+    color: #f2cc60 !important;
+}
+
+/* 💬 Comments */
+.hljs-comment {
+    color: #8b949e !important;
+    font-style: italic !important;
+}
+
+/* 🟠 Function Names */
+.hljs-function {
+    color: #d2a8ff !important;
+}
+
+/* 🔵 Variables */
+.hljs-variable {
+    color: #ffa657 !important;
+}
+
+/* 🔺 Operators (+, -, *, =) */
+.hljs-operator {
+    color: #79c0ff !important;
+}
+
+/* 🔹 Built-in Functions (console, Math) */
+.hljs-builtin {
+    color: #ffa657 !important;
+}
+
+/* 🏷️ Meta Information */
+.hljs-meta {
+    color: #c9d1d9 !important;
+}
+
 
 /* 📌 Blockquotes */
 blockquote {

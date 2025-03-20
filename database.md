@@ -29,3 +29,17 @@ if(!conn){
     echo "Connection Success with Database";
 }
 ```
+## Creating DATABASE using sql query
+```php
+$sql= "CREATE DATABASE demo_1";
+$result = mysqli_query($conn, $sql);
+```
+
+
+| Keyword     | Decription                      |
+| --------- | -------------------------------- |
+| `$sql`  | Storing SQL query inside the variable. In this case it is to Createting DATABASE |
+| `$result`  | $result is variable  |
+| `mysqli_query()`  | mysqli_query() is to fire the quarry to the server this takes two parameters one is connection variable another one is SQL quarry  |
+
+

@@ -2,4 +2,4 @@
 
 | 🌟 Project Name | 🔗 Project Link               |  
 |---------------|-------------------------------------------|  
-| ✨ **Creating a Bootstrap Form & Storing Data in MySQL Using MySQLi** 🛠️ | [Check it out! 🚀](projects.md#projects-4) |  
+| ✨ **Creating a Bootstrap Form & Storing Data in MySQL Using MySQLi** 🛠️ | [Check it out! 🚀](projects.md#projects-1) |  

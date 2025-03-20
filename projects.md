@@ -55,7 +55,7 @@ if ($conn->connect_error) {
 }
 ?>
 ```
-🔍 **How to connect with DB Mysqli ?**  
+🔍 **How to connect with DB Mysqli Easy and step by stap ?**  
 👉 [Click here for more details! 🚀](database.md#database-connection)  
  
 

@@ -1,6 +1,9 @@
-### Topic List:
+### 📌 Topic List  
 
-| Topic     | Topic links                      |
-| --------- | -------------------------------- |
-| Database Connection  | [Connection with database](database.md)    |
+| 📚 Topic | 🔗 Learn More |  
+|---------|-------------|  
+| 🛠️ **Database Connection** | 👉 [Explore Now! 🚀](database.md) |  
 
+---
+🔗 **Looking for more exciting projects?**  
+🔥 [Browse All Projects Here! 🚀](project-list.md)  

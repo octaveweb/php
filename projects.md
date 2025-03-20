@@ -2,6 +2,7 @@
 
 ### Creating a Bootstrap Form and Saving Data Into MySQL DataBase Using MySQLi 
 > Creaating a basic form submition using XMAPP
+
 ## Step 1
 ### Creating ***index.php***
 
@@ -57,7 +58,8 @@ if ($conn->connect_error) {
 🔍 **How to connect with DB Mysqli ?**  
 👉 [Click here for more details! 🚀](database.md#database-connection)  
  
- ## Step 3
+
+## Step 3
 ### INSERT Records in DB  ***insert.php***
 
  ```php
@@ -80,5 +82,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 $conn->close();
 ?>
-
  ```
